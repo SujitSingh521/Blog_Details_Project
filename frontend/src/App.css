@@ -1,0 +1,266 @@
+/* Blog.css
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin: 20px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.blog-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.blog-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.blog-list li {
+  padding: 15px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.blog-list li:last-child {
+  border-bottom: none;
+}
+
+.create-post-button {
+  display: block;
+  margin: 20px 0;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.create-post-button:hover {
+  background-color: #0056b3;
+}
+
+.blog-form {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.blog-form input,
+.blog-form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.blog-form button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.blog-form button:hover {
+  background-color: #218838;
+}
+
+.blog-details {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+
+.blog-details h2 {
+  color: #333;
+}
+
+.blog-details p {
+  margin: 10px 0;
+}
+
+.tags {
+  color: #6c757d;
+  font-size: 14px;
+} */
+/* Blog.css */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #007bff;
+  color: white;
+  padding: 15px 20px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.navbar-logo {
+  color: #57ffe9;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.navbar-links a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+
+/* Blog List */
+.blog-container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.blog-list {
+  list-style: none;
+  padding: 0;
+}
+
+.blog-list li {
+  padding: 15px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.blog-list li:last-child {
+  border-bottom: none;
+}
+
+.blog-list a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.blog-list a:hover {
+  text-decoration: underline;
+}
+
+/* Blog Form */
+.blog-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.blog-form input,
+.blog-form textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.blog-form button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.blog-form button:hover {
+  background-color: #218838;
+}
+
+/* Blog Details */
+.blog-details {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 20px auto;
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.blog-details h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.blog-details .tags {
+  color: #888;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .navbar-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .blog-container,
+  .blog-form,
+  .blog-details {
+    padding: 15px;
+  }
+
+  .blog-form button {
+    width: 100%;
+  }
+}
