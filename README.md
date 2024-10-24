@@ -19,7 +19,6 @@ cors: Middleware to enable CORS (Cross-Origin Resource Sharing).
 dotenv: Loads environment variables from a .env file into process.env.
 nodemon: Development tool that automatically restarts your server when file changes are detected.
 
-
 express: The web framework for building the server.
 mongoose: The ODM (Object Data Modeling) library for MongoDB and Node.js.
 cors: Middleware to enable CORS (Cross-Origin Resource Sharing).
@@ -28,8 +27,6 @@ nodemon: Development tool that automatically restarts your server when file chan
 
 
 ===========>
-
-
 
 # Navigate to the Blog_Details_Project directory :- 
 cd Blog_Details_Project
