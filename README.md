@@ -26,7 +26,7 @@ Blog_Details_Project/
     ├── public/                      # Static assets (images, index.html, etc.)
     ├── package.json                 # NPM dependencies for the frontend
 
-===================================================================================================>
+===========>
 
 # Navigate to the backend directory  :- 
 cd Blog_Details_Project/backend
@@ -37,7 +37,7 @@ npm init -y
 # Install necessary backend dependencies
 npm install express mongoose cors dotenv nodemon
 
-===================================================================================================>
+===========>
 
 express: The web framework for building the server.
 mongoose: The ODM (Object Data Modeling) library for MongoDB and Node.js.
@@ -53,7 +53,7 @@ dotenv: Loads environment variables from a .env file into process.env.
 nodemon: Development tool that automatically restarts your server when file changes are detected.
 
 
-===================================================================================================>
+===========>
 
 
 
@@ -70,7 +70,7 @@ cd frontend
 # Here are some common packages you might want
 npm install axios react-router-dom
 
-===================================================================================================>
+===========>
 
 
 # Blog_Details_Project
