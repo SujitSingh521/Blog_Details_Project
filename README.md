@@ -2,7 +2,7 @@ Name : Sujit Singh
 
 
 
-# Navigate to the backend directory  :- 
+# Navigate to the backend directory  :-
 cd Blog_Details_Project/backend
 
 # Initialize a new package.json file if you haven't already
