@@ -19,11 +19,11 @@ Name : Sujit Singh
 
 
 
-express: Framework for building the server.
-mongoose: MongoDB ODM library.
-cors: Enable CORS (Cross-Origin Resource Sharing).
-dotenv: Load environment variables.
-nodemon: Auto-restart server during development.
+(1). express: Framework for building the server.
+(2). mongoose: MongoDB ODM library.
+(3). cors: Enable CORS (Cross-Origin Resource Sharing).
+(4). dotenv: Load environment variables.
+(5). nodemon: Auto-restart server during development.
 
 
 
@@ -43,15 +43,32 @@ Frontend 🌐 :-
 5. Install dependencies:-
     npm install axios react-router-dom
 
-   axios: For HTTP requests.
-   react-router-dom: For routing
+  (i)  axios: For HTTP requests.
+  (ii) react-router-dom: For routing
 
 
 🎯 Get Started
-Backend: Run with nodemon server.js
-Frontend: Start with npm start
-Happy Coding! ✨
-Author: Sujit Singh
+1. Backend: Run the server:-
+   nodemon server.js
+
+2. Frontend: Start the development server:-
+   npm start
+
+
+   Author: Sujit Singh
+   Happy Coding! ✨
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
